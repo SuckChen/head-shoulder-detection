@@ -1,0 +1,16 @@
+pos_im_path = '../data/images/POS2'
+neg_im_path = '../data/images/NEG2'
+min_wdw_sz = [68, 124]
+step_size = [10, 10]
+orientations = 9
+pixels_per_cell = [8, 8]#6
+cells_per_block = [3, 3]#2
+visualize = False
+normalize = True
+pos_feat_ph = '../data/features/pos/'
+neg_feat_ph = '../data/features/neg'
+model_path = '../data/models/only hog8-PCA-300'
+threshold = .3
+des_type = 'HOG+his'
+radius =1
+n_point = radius *8

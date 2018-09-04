@@ -1,0 +1,14 @@
+only hog5 :
+pixels_per_cell = [8, 8]#6
+cells_per_block = [3, 3]#2
+
+
+only hog6:
+pixels_per_cell = [4, 4]#6
+cells_per_block = [2, 2]#2
+
+only hog7:
+pos : 798
+neg :2384
+pixels_per_cell = [8, 8]#6
+cells_per_block = [3, 3]#2
